@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Angel Briseno</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <style>
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .container-swip {
+      position: relative;
+      width: 50%;
+      overflow-x: hidden;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    .header {
+      width: auto;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      position: relative;
+      text-align: center;
+    }
+    nav a {
+      display: absolute;
+      font-style: normal;
+      font-size: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #c78c19;
+      text-decoration: underline;
+    }
+    .container {
+      height: 80%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #333;
+      margin-right: 20%;
+    }
+    p {
+      color: #666;
+    }
+    .computer-image {
+       filter: contrast(1.5);
+      max-width: 100%;
+      height: 100%;
+    }
+
+
+    .skills {
+      margin-top: 20px;
+    }
+    .skills ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .skills li {
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      background-color: #f2f2f2;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: #333;
+    }
+    .container-sociales {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container-sociales a {
+      margin-left: 2%;
+    }
+    .instagram-button {
+      display: inline-block;
+      margin-top: 20px;
+      background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .twitter-button:hover,
+    .instagram-button:hover,
+    .github-button:hover,
+    #retoalura:hover {
+      transform: scale(1.03);
+      border-color: #515ecf;
+    }
+    .twitter-button {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #1da1f2;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .github-button {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #222222;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    #retoalura {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #c1c1c1;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .container-projects {
+      margin-top: 3rem;
+    }
+    .computer-image {
+      display: block;
+      margin-left: auto;
+      max-width: 300px;
+    }
+    .nombre_imagen {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Logo de la Empresa</h1>
+    <nav>
+      <a href="#">Inicio</a> |
+      <a href="#proyectos">Proyectos</a> |
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="nombre_imagen">
+      <h1>Angel Briseno</h1>
+      <div class="container-swip">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="computer-image" src="https://img.freepik.com/fotos-premium/negocios-finanzas-empleo-mujeres-emprendedoras-exitosas-concepto-joven-empresaria-asiatica-empleado-banco-vasos-laptop_1258-16623.jpg" alt="Imagen de una computadora" width="500" height="500">
+            </div>
+            <div class="swiper-slide">
+              <img class="computer-image" src="https://files.scmagazine.com/wp-content/uploads/2023/06/0601_python_code.jpg" alt="Imagen de código" width="400" height="199">
+            </div>
+            <div class="swiper-slide">
+              <img class="computer-image" src="https://images.squarespace-cdn.com/content/v1/54782f68e4b0a1e9ef83090d/1565367088322-YJ4UAB3ZJI1VXWK8Z8CB/microsoft-power-bi.png" width="400" height="199">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <p>¡Bienvenido a mi página de presentación!</p>
+    <p>Soy un economista especializado en análisis de series de tiempo con una sólida experiencia en el sector gubernamental y en el desarrollo de soluciones utilizando Power BI. Mi enfoque se centra en el análisis de datos económicos y financieros a través de técnicas avanzadas de series de tiempo para identificar patrones, tendencias y pronósticos. He trabajado en proyectos gubernamentales que involucran la elaboración de informes económicos y análisis de políticas, además de utilizar mi experiencia en Power BI para crear paneles interactivos y visualizaciones efectivas que permiten a los usuarios explorar y comprender los datos de manera intuitiva.</p>
+    <div class="skills">
+      <h2>Habilidades:</h2>
+      <ul>
+        <li>Análisis de Datos</li>
+        <li>Minería de Datos</li>
+        <li>Visualización de Datos</li>
+        <li>SQL</li>
+        <li>Python</li>
+        <li>R</li>
+        <li>Machine Learning</li>
+      </ul>
+    </div>
+    <div class="container-projects" id="proyectos">
+      <h2>Proyectos realizados:</h2>
+      <ul>
+        <li><a id="retoalura" href="https://angelabriseno.github.io/">Pagina web Reto alura</a></li>
+        <li><a id="retoalura" href="https://angelabriseno.github.io/encriptador_texto_/">Reto encriptador_texto alura</a></li>
+      </ul>
+    </div>
+    <div id="contacto">
+      <h2> Redes de contacto: </h2>
+      <div class="container-sociales">
+        <a class="twitter-button" href="https://twitter.com/chilliwilly_bro" target="_blank">Twitter</a>
+        <a class="instagram-button" href="https://www.instagram.com/chilliwilly__" target="_blank">Instagram</a>
+        <a class="github-button" href="https://github.com/angelabriseno" target="_blank">Github</a>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'horizontal',
+      loop: true,
+      autoplay: {
+        delay: 3000,
+      },
+      speed: 1000,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
